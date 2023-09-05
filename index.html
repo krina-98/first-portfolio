@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div>
+
+    <div class="bg-image">
+      <img src="images/hero_1.jpg.webp" class="w-100" alt="Louvre Museum" />
+      <div class="mask" style="background-color: hsla(60, 2%, 34%, 0.308)">
+        <div class="d-flex justify-content-center align-items-start h-100 m-4">
+          <nav class="navbar navbar-expand-lg container" style="box-shadow: none;">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+              <!-- Toggle button -->
+              <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+
+              <!-- Collapsible wrapper -->
+              <div class="collapse navbar-collapse" style="font-size: 17px;" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                  <img src="images/logo.png.webp" height="25" alt="MDB Logo" loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4">
+                  <li class="nav-item active main fs-5-text" aria-current="page">
+                    <a class="nav-link" style="padding: 10px 20px; color: white;" href="#">Home</a>
+                  </li>
+                  <li class="nav-item main fs-5-text">
+                    <a class="nav-link" style="padding: 10px 20px; color: white;" href="#">Buy</a>
+                  </li>
+                  <li class="nav-item main fs-5-text">
+                    <a class="nav-link" style="padding: 10px 20px;color: white;" href="#">Sell</a>
+                  </li>
+                  <li class="nav-item dropdown main fs-5-text">
+                    <a class="nav-link dropdown-toggle" style="padding: 10px 20px; color: white;" href="#"
+                      id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                      services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li>
+                        <a class="dropdown-item" href="#">Action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+
+                    </ul>
+                  <li class="nav-item main fs-5-text">
+                    <a class="nav-link" style="padding: 10px 20px; color: white;" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item main fs-5-text">
+                    <a class="nav-link" style="padding: 10px 20px; color: white;" href="#">About</a>
+                  </li>
+                  <li class="nav-item main fs-5-text">
+                    <a class="nav-link" style="padding: 10px 20px; color: white;" href="#">Contact</a>
+                  </li>
+
+                  <!-- Left links -->
+              </div>
+              <!-- Collapsible wrapper -->
+
+              <!-- Right elements -->
+              <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <a class="text-reset" href="#">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item fs-5-text">
+                      <a class="nav-link" style="padding: 10px 20px; color: white;" href="#">Sign In/Register</a>
+                    </li>
+
+                  </ul>
+                </a>
+
+
+
+
+              </div>
+              <!-- Container wrapper -->
+
+
+          </nav>
+          <div class="position-absolute  top-25 start-25 justify-content-center align-items-center"
+            style="padding: 20%;">
+            <h1 style="color: white;font-size: 4em;" class="text-center">The Best Place to <br>Buy and Sell</h1>
+            <p style="color: white;font-size: 1.1em;" class="text-center text-light">Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Nihil</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary register"
+                style="padding: 20px 50px; background-color: #fda121;">Register</a>
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="container">
+    <div class="row ms-5 mt-5 mb-5">
+      <div class="mb-6 text-center p-4">
+        <span class="caption">AUCATION</span>
+        <h2 class="text-black">Current <strong>Aucation</strong></h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-3">
+
+        <div class="col">
+          <div class="card">
+            <img src="images/product_1.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pinky Shoes</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/product_2.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Eye Glass</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/product_3.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Black Leather Jacket</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/product_4.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MacBook 15-Inch</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/product_5.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iPad</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/product_6.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shoe Sneakers</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/product_7.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iMac</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/product_8.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iWatch</h5>
+              <div class="d-flex mb-2 text-black-50">
+                <span class="me-auto">Shoes</span>
+                <span>4 bids</span>
+
+              </div>
+              <button class="submit-a-bid text-body">
+                Submit a Bid
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row ms-5 mb-10 mt-5 justify-content-start">
+      <div class="mb-5">
+        <span class="caption">HOW?</span>
+        <h2 class="text-black">How <strong>It Works</strong></h2>
+      </div>
+      <section class="text-start">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+            <i class="fas fa-circle-user fa-3x mb-4 fa-4x" style="color: #fda121;"></i>
+            <h5 class="text-dark fw-bold mb-3">Register</h5>
+            <h6 class="fw-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestias
+              obcaecati, odio magnam eaque sunt molestiae.</h6>
+            <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+            <i class="fas fa-money-bill-1 fa-3x mb-4 fa-4x" style="color: #fda121;"></i>
+            <h5 class="text-dark fw-bold mb-3">Buy or Bid</h5>
+            <h6 class="fw-light mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, distinctio.
+              Culpa vero nam excepturi iure? Deleniti?</h6>
+            <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+            <i class="fas fa-martini-glass-empty fa-3x mb-4 fa-4x" style="color: #fda121;"></i>
+            <h5 class="text-dark fw-bold mb-3">Submit a bid</h5>
+            <h6 class="fw-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quas odit at velit
+              corporis corrupti ipsam?</h6>
+            <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+            <i class="fas fa-trophy fa-3x mb-4 fa-4x" style="color: #fda121;"></i>
+            <h5 class="text-dark fw-bold mb-3">Win</h5>
+            <h6 class="fw-light mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit architecto
+              quibusdam, temporibus dolore quia dignissimos tempore!</h6>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row m-5">
+      <div class="col-lg-7">
+        <img src="images/hero_1.jpg.webp" alt="Image" class="img-fluid">
+      </div>
+      <div class="col-lg-5 pl-lg-5">
+        <div class="mb-4">
+          <span class="caption">About?</span>
+          <h2 class="text-black">About <strong>Us</strong></h2>
+        </div>
+        <div class="d-flex feature-icon mb-2">
+
+          <i class="fab fa-telegram fa-4x ml-2" style="color: #fda121;"></i>
+
+          <div class="ms-2">
+            <h3 style="color: #fda121;">Fast Support</h3>
+            <p class="mr-1rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</p>
+          </div>
+        </div>
+
+        <div class="d-flex feature-icon mb-2">
+
+          <i class="fas fa-face-grin fa-4x ml-2" style="color: #fda121;"></i>
+
+          <div class="ms-2">
+            <h3 style="color: #fda121;">Fast Support</h3>
+            <p class="mr-1rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</p>
+          </div>
+        </div>
+
+        <div class="d-flex feature-icon mb-2">
+
+          <i class="fas fa-life-ring fa-4x ml-2" style="color: #fda121;"></i>
+
+          <div class="ms-2">
+            <h3 style="color: #fda121;">Fast Support</h3>
+            <p class="mr-1rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel wrapper -->
+  <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <img src="images/hero_1.jpg.webp" class="d-block w-100" height="650" alt="Sunset Over the City" />
+        <div class="mask" style="background-color: hsla(25, 96%, 38%, 0.6)">
+          <div class="container">
+            <div class="col-lg-7 text-center mx-auto mt-5 row">
+              <span class="caption text-white">Testimonials</span>
+              <h2 class=" text-center mb-5 text-white">
+                Happy
+                <strong>Client</strong>
+              </h2>
+            </div>
+            <div class="container d-flex text-white p-4">
+              <div class="container">
+                <div class="container d-flex">
+                  <img src="images/person_1.jpg.webp" class="img-fluid mr-3 p-4" style="vertical-align: middle;
+              width: 120px;
+              height: 120px;
+              border-radius: 50%;" alt="p1">
+                  <span class="mt-4">
+                    <h3>Allison Holmes</h3>
+                    <p class="mr-0">Designer</p>
+                  </span>
+                </div>
+                <div>
+                  <p class="justify-content-start px-4 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati, laudantium dolor quam autem vero assumenda necessitatibus similique repudiandae omnis
+                    veritatis ut neque sit alias eos repellat nostrum, reprehenderit, soluta dicta fugiat eaque! Rerum,
+                    tempore?</p>
+                </div>
+              </div>
+              <div class="container">
+                <div class="container d-flex">
+                  <img src="images/person_1.jpg.webp" class="img-fluid mr-3 p-4" style="vertical-align: middle;
+              width: 120px;
+              height: 120px;
+              border-radius: 50%;" alt="p1">
+                  <span class="mt-4">
+                    <h3>Allison Holmes</h3>
+                    <p class="mr-0">Designer</p>
+                  </span>
+                </div>
+                <div>
+                  <p class="px-4 lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ipsam reprehenderit
+                    rerum sed unde explicabo et ratione veritatis iusto temporibus corporis, asperiores aliquam
+                    aspernatur itaque expedita? Repudiandae harum error modi quibusdam. Harum, in cupiditate.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="images/hero_1.jpg.webp" class="d-block w-100" height="650" alt="Canyon at Nigh" />
+        <div class="mask" style="background-color: hsla(25, 96%, 38%, 0.6)">
+          <div class="container">
+            <div class="col-lg-7 text-center mx-auto mt-5 row">
+              <span class="caption text-white">Testimonials</span>
+              <h2 class=" text-center mb-5 text-white">
+                Happy
+                <strong>Client</strong>
+              </h2>
+            </div>
+            <div class="container d-flex text-white p-4">
+              <div class="container">
+                <div class="container d-flex">
+                  <img src="images/person_1.jpg.webp" class="img-fluid mr-3 p-4" style="vertical-align: middle;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;" alt="p1">
+                  <span class="mt-4">
+                    <h3>Allison Holmes</h3>
+                    <p class="mr-0">Designer</p>
+                  </span>
+                </div>
+                <div>
+                  <p class="justify-content-start px-4 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati, laudantium dolor quam autem vero assumenda necessitatibus similique repudiandae omnis
+                    veritatis ut neque sit alias eos repellat nostrum, reprehenderit, soluta dicta fugiat eaque! Rerum,
+                    tempore?</p>
+                </div>
+              </div>
+              <div class="container">
+                <div class="container d-flex">
+                  <img src="images/person_2.jpg.webp" class="img-fluid mr-3 p-4" style="vertical-align: middle;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;" alt="p1">
+                  <span class="mt-4">
+                    <h3>Allison Holmes</h3>
+                    <p class="mr-0">Designer</p>
+                  </span>
+                </div>
+                <div>
+                  <p class="px-4 lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ipsam reprehenderit
+                    rerum sed unde explicabo et ratione veritatis iusto temporibus corporis, asperiores aliquam
+                    aspernatur itaque expedita? Repudiandae harum error modi quibusdam. Harum, in cupiditate.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <img src="images/hero_3.jpg.webp" class="d-block w-100" height="650" alt="Cliff Above a Stormy Sea" />
+    <div class="mask" style="background-color: hsla(25, 96%, 38%, 0.6)">
+      <div class="container">
+        <div class="col-lg-7 text-center mx-auto mt-5 row">
+          <span class="caption text-white">Testimonials</span>
+          <h2 class=" text-center mb-5 text-white">
+            Happy
+            <strong>Client</strong>
+          </h2>
+        </div>
+        <div class="container d-flex text-white p-4">
+          <div class="container">
+            <div class="container d-flex">
+              <img src="images/person_4.jpg.webp" class="img-fluid mr-3 p-4" style="vertical-align: middle;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;" alt="p1">
+              <span class="mt-4">
+                <h3>Allison Holmes</h3>
+                <p class="mr-0">Designer</p>
+              </span>
+            </div>
+            <div>
+              <p class="justify-content-start px-4 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati, laudantium dolor quam autem vero assumenda necessitatibus similique repudiandae omnis
+                veritatis ut neque sit alias eos repellat nostrum, reprehenderit, soluta dicta fugiat eaque! Rerum,
+                tempore?</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="container d-flex">
+              <img src="images/person_1.jpg.webp" class="img-fluid mr-3 p-4" style="vertical-align: middle;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;" alt="p1">
+              <span class="mt-4">
+                <h3>Allison Holmes</h3>
+                <p class="mr-0">Designer</p>
+              </span>
+            </div>
+            <div>
+              <p class="px-4 lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ipsam reprehenderit
+                rerum sed unde explicabo et ratione veritatis iusto temporibus corporis, asperiores aliquam aspernatur
+                itaque expedita? Repudiandae harum error modi quibusdam. Harum, in cupiditate.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+      
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  </div>
+  <!-- Carousel wrapper -->
+
+
+
+  <div class="container" style="padding: 5em;">
+
+    <div class="text-center justify-content-center row">
+      <div class="c0l-lg-7">
+        <h2 class="text-black mb-4">
+          Create an account and start Buy, Bid or <br> Sell Now!
+          <h2>
+            <a href="#" class="btn btn-primary register" style="background-color: #fda121;">Register</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Section: Social media -->
+  <footer>
+    <!-- Section: Links  -->
+    <section class="pt-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+
+            <img src="images/" class="img-fluid mb-4" alt="logo">
+
+            <p class="fw-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nemo molestias dolorem
+              dolorum neque! Ducimus.
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-capitalize fw-light" style="text-decoration: underline;">learn
+                more</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-capitalize mb-4 fw-normal">
+              Solution
+            </h6>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">register</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">login</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">buy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">sell</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">submit a
+                bid</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-capitalize mb-4 fw-normal">
+              services
+            </h6>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">register</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">login</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">buy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">sell</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">submit a
+                bid</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-capitalize fw-normal mb-4">Contact</h6>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">help
+                center</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">community</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">press</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">share your
+                story</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset fw-lighter" style="text-decoration: underline;">our
+                supporter</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      Copyright ©2023 All rights reserved | This template is made with <i class="fa-solid fa-heart"
+        style="color: #fb2339;"></i> by
+      <a class="text-reset" style="text-decoration: underline;" href="https://colorlib.com/">Colorlib</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+</body>
+
+</html>
