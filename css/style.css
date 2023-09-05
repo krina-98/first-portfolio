@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-sizing;
+    
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: #f37121;
+    border-color: #f37121;
+}
+.btn {
+    padding: 14px 20px;
+    border-radius: 0;
+}
+
+.btn:hover{
+    background-color: #e26a1f;
+    box-shadow: none;
+}
+.caption{
+    color: #f37121;
+}
+.row {
+    --mdb-gutter-x: 3.5rem;
+    --mdb-gutter-y: 0;
+  }
+
+  .submit-a-bid{
+    border: none;
+    padding: 6px 15px;
+    margin: 6px 0;
+  }
+
+  .navigation{
+    display: flex;
+    margin: 10px;
+  }
+
+  .left ul li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+
+  }
+  .left ul{
+    display: flex;
+    list-style: none;
+    
+
+  }
+
+  
+.left ul li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+ul .main .nav-link a:hover{
+    
+    border-bottom: 2px solid white;
+    padding:2px 0;
+
+
+}
+nav ul .main a{
+    padding: 3px;
+}
+.active > a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.active > a:after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  background: #fff;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.section-bg.style-1 {
+  position: relative;
+}
+.section-bg.style-1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f37121;
+  opacity: .9;
+  z-index: 0;
+}
+.section-bg.style-1 > .container {
+  z-index: 2;
+}
+
+
+
+
+
+
+ 
